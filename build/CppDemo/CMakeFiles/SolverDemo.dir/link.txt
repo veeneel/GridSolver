@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/SolverDemo.dir/SolverDemo.cpp.o  -o SolverDemo -lSolverLib 

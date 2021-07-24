@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared  -o SolverModule.so CMakeFiles/SolverModule.dir/SolverLib.cpp.o /usr/lib/x86_64-linux-gnu/libpython3.6m.so -lboost_python -lboost_numpy3 

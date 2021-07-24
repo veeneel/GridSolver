@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vneel/Projects/GridSolver/ClassSolver.h
+sstream
+-
+iomanip
+-
+cmath
+-
+string
+-
+iostream
+-
+vector
+-
+algorithm
+-
+iterator
+-
+stdexcept
+-
+numeric
+-
+
+/home/vneel/Projects/GridSolver/SolverDemo/SolverDemo.cpp
+../ClassSolver.h
+/home/vneel/Projects/GridSolver/ClassSolver.h
+string
+-
+iostream
+-
+

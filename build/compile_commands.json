@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/vneel/Projects/GridSolver/build/SolverLib",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DSolverLib_EXPORTS -I/home/vneel/Projects/GridSolver/SolverLib  -g -fPIC   -o CMakeFiles/SolverLib.dir/SolverLib.cpp.o -c /home/vneel/Projects/GridSolver/SolverLib/SolverLib.cpp",
+  "file": "/home/vneel/Projects/GridSolver/SolverLib/SolverLib.cpp"
+},
+{
+  "directory": "/home/vneel/Projects/GridSolver/build/SolverModule",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DSolverModule_EXPORTS -DWITH_BOOST_PYTHON -I/usr/include/python3.6m  -g -fPIC   -o CMakeFiles/SolverModule.dir/SolverLib.cpp.o -c /home/vneel/Projects/GridSolver/SolverModule/SolverLib.cpp",
+  "file": "/home/vneel/Projects/GridSolver/SolverModule/SolverLib.cpp"
+},
+{
+  "directory": "/home/vneel/Projects/GridSolver/build/SolverDemo",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/vneel/Projects/GridSolver/SolverLib  -g   -o CMakeFiles/SolverDemo.dir/SolverDemo.cpp.o -c /home/vneel/Projects/GridSolver/SolverDemo/SolverDemo.cpp",
+  "file": "/home/vneel/Projects/GridSolver/SolverDemo/SolverDemo.cpp"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7 -fPIC   -shared  -o PyModule.so CMakeFiles/PyModule.dir/SharedLib.cpp.o /usr/lib/x86_64-linux-gnu/libpython3.6m.so -lboost_python 

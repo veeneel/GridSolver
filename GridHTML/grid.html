@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Foresight Sports - Grid</title>
+    <script src="Chart.min.js"></script>
+    <script src="utils.js"></script>
+    <style>
+        @import url("grid.css");
+    </style>
+    <link rel="icon" href="ScatterPlotG.png">
+</head>
+
+<body style="background-color:#BC8F8F;">
+    <div class="wrapper">
+        <!-- <div class="item1" style="background-color:#FFE4C4;"> -->
+        <div class="item1">
+            <canvas id="canvas" height="200" width="200"></canvas>
+        </div>
+        <div class="item2">
+            <h1>Configure Grid</h1>
+            <!-- <div class="slContainer"> -->
+            <div class="btnRow">
+                <p>
+                    X-Offset:
+                    <input class="slider" type="range" id="slXoff" min="-5" max="5" value="0">
+                    <output id="lblXoff" for="slXoff">0</output>
+                </p>
+            </div>
+            <!-- </div> -->
+            <div class="btnRow">
+                <p>
+                    Y-Offset:
+                    <input class="slider" type="range" id="slYoff" min="-5" max="5" value="0">
+                    <output id="lblYoff" for="slYoff">0</output>
+                </p>
+            </div>
+            <div class="btnRow">
+                <p>
+                    "Alpha: "
+                    <input class="slider" type="range" id="slAlpha" min="-45" max="45" value="0">
+                    <output id="lblAlpha" for="slAlpha">0</output>
+                </p>
+            </div>
+            <div class="btnRow">
+                <p>
+                    gridSize:
+                    <input class="slider" type="range" id="slGridDim" min="2" max="10" value="3">
+                    <output id="lblGridDim" for="slGridDim">3x3</output>
+                </p>
+            </div>
+            <div class="btnRow">
+                <p>
+                    gridSpacing:
+                    <input class="slider" type="range" id="slSpacing" min="0.2" max="1.2" step="0.1" value="1.0">
+                    <output id="lblSpacing" for="slSpacing">1.0</output>
+                </p>
+            </div>
+            <div class="btnRow">
+                <p>
+                    animPeriod:
+                    <input class="slider" type="range" id="slAnimation" min="0.0" max="1.0" step="0.1" value="0.5">
+                    <output id="lblAnimation" for="slAnimation">0.5s</output>
+                </p>
+            </div>
+        </div>
+        <div class="item3">
+            <h1>Generate Grid</h1>
+            <div>
+                <textarea id="griddata" rows="9" cols="30" wrap="hard"></textarea>
+            </div>
+            <div>
+                <!-- <div class="slContainer"> -->
+                <div class="slRow">
+                    <p>
+                        #decimals:
+                        <input class="slider" type="range" id="slDecimals" min="1" max="5" value="2">
+                        <output id="lblDecimals" for="slDecimals">
+                                2
+                            </output>
+                    </p>
+                </div>
+                <div class="btnRow">
+                    <p>
+                        Generate Index?:
+                        <input type="checkbox" id="chkIndex" checked>
+                    </p>
+                </div>
+                <div class='slClear'></div>
+                <!-- </div> -->
+                <div>
+                    <div class="btnRowC">
+                        <button class="button btn" onclick="displayGridData()">
+                                Generate Data
+                            </button>
+                        <button class="button btn1" id="copyBtn">
+                                Copy to Clipboard
+                            </button>
+                    </div>
+                    <div class='btnClear'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="grid.js" type="text/javascript"></script>
+</body>
+
+</html>

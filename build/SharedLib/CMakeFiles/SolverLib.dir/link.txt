@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libSolverLib.so -o libSolverLib.so CMakeFiles/SolverLib.dir/SolverLib.cpp.o 

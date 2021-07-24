@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7 -fPIC   -shared -Wl,-soname,libSharedLib.so -o libSharedLib.so CMakeFiles/SharedLib.dir/SharedLib.cpp.o 
